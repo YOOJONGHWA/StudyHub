@@ -1,0 +1,193 @@
+# Recursion
+
+#### 기본 예제
+
+```
+
+public class Code01 {
+
+    pubilc static void main(String[] args) {
+        func();
+    }
+
+    pubilc static void func() {
+        system.out.println("hello");
+        func();
+    }
+}
+
+```
+
+위에 코드를 보면 출력은 어떻게 될까?
+
+메인 메서드가 실행되면서 func() 메세드가 호출되고 hello 가 콘솔에 찍히면서 다시 func() 메서드가 호출되어 실행된다.
+
+그런데 이러한 과정이 끊임없이 일어난다 왜? 코드에서 특별한 제약 조건이 없기 때문에 그렇다 이러한 상황을 무한 루프에 빠진다고 한다.
+
+그러면 어떻게 해야 무한루프를 빠져 나올수 있을까?
+
+앞에서 말한 제약 조건이 필요하다.
+
+```
+
+public static void main(String[] args) {
+
+        int n = 4;
+        func(4);
+
+    }
+
+    public static int func(int n) {
+        if (n <= 0)
+            return;
+        else {
+            system.out.println("hello");
+            return func(n -1 );
+        }
+
+    }
+
+```
+
+아까와는 다르게 if절을 추가 했다.
+
+그러면 이제 무한루프에 빠져 나올수 있는 조건이 생겼다. 실행하면 hello 문자열이 4번만 찍히게 된다.
+
+if절의 조건을 들여다보자.
+
+func()메서드에 4를 넣고 실행하면 n = 0 이 아니기에 else로 넘어가서 hello를 출력하고 다시
+
+func() 메서드 4 - 1를 하여 3을 넣고 다시 호출한다.
+
+이러면 결국 4 3 2 1 0 순으로 실행되고 0은 if절 조건에 걸리기에 hello를 콘솔에 찍지 않고 마무리된다.
+
+결국 좀더 코드별로 설명하자면
+
+```
+
+     if (n <= 0)
+            return; //-> Base case: 적오도 하나의
+            Recursion에 빠지지 않는 경우가 존재해야 하며
+
+    return func(n -1 ); // -> Recursion에 case: Recursion을 반복하다보면 결국 Base case로 수렴해야 한다.
+
+```
+
+---
+
+#### 1 ~ n 까지의 합
+
+지금 까지 배운 예시를 어디에 사용할수 있는지 알아보면
+
+```
+
+    public static void main(String[] args) {
+
+        int n = 4;
+        int result = func(4);
+        System.out.println(result);
+
+    }
+
+    public static int func(int n) {
+        if (n <= 0)
+            return 0;
+        else {
+            return n + func(n -1 );
+        }
+
+    }
+
+```
+
+이런 방식으로 응용할수 있다. 코드를 보면 func() 함수가 0이 아닐때 까지 합을 구하는 것이다.
+
+모식화 하면
+
+```
+
+int result = func(4); -> 10
+
+    return 4 + func(3); -> 10
+
+        return 3 + func(2); -> 6
+
+            return 2 + func(1); -> 3
+
+                return 1 + func(0); -> 1
+
+                    return 0;   -> 0
+
+```
+
+최종 결과가 10이 나오는걸 확인 할수 있다. 이처럼 재귀함수를 통해서
+
+수학적 귀납법을 충족할수 있게된다.
+
+---
+
+#### Factorial: n!
+
+```
+
+    0! = 1
+    n! = n x (n -1)! > 0
+
+```
+
+다음은 펙토리얼 공식이다.
+
+```
+
+    public static int factorial(int n) {
+
+        if (n == 0)
+            return 1;
+        else {
+            return n * factorial(n - 1);
+        }
+
+    }
+
+```
+
+앞에서 1 ~ n 합을 구하는 것과 마찬가지의 동작 방식으로 if문 조건만 다르게하면 가능한 공식이다.
+
+---
+
+#### Fibonacci Number
+
+```
+
+    f0 = 0
+    f1 = 1
+    fn = fn-1 + fn-2 n > 1
+
+```
+
+```
+    public static int fibonacci(int n) {
+        if (n < 2)
+            return n;
+        else
+            return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+
+```
+
+피보나치 수열도 n이 만약 2 보다 작으면 0은 더해도 변화가 없기에 n은 1 자체를 리턴하면 된다.
+
+---
+
+#### 최대공약수
+
+```
+
+    public static int gcd(int a, int b) {
+        if (b == 0)
+            return a;
+        else
+            return gcd(b, a % b);
+    }
+
+```
