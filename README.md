@@ -9,6 +9,7 @@
 - [프로세스 관리](./Operating-System/프로세스%20관리.md)
 - [CPU 스케줄링](./Operating-System/CPU%20스케줄링.md)
 - [병행제어](./Operating-System/병행제어.md)
+- [데드락](./Operating-System/데드락.md)
 
 ## 네트워크
 
