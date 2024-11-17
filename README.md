@@ -25,7 +25,7 @@
 - 영리한 프로그래밍을 위한 알고리즘 강좌
 
   - [1-1강 Recursion](./Algorithm/순환/순환의%20개념과%20기본%20예제1.md)
-  - [1-2강 Recursion](./Algorithm/순환/순환의%20개념과%20기본%20예제2.md)
+  - [1-3강 Recursion](./Algorithm/순환/순환의%20개념과%20기본%20예제2.md)
 
 ## JAVA
 
