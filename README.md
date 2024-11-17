@@ -4,18 +4,21 @@
 
 ## 운영체제
 
-- [운영체제 개요](./Operating-System/운영체제%20개요.md)
-- [컴퓨터시스템의 구조](./Operating-System/컴퓨터시스템의%20구조.md)
-- [프로세스 관리](./Operating-System/프로세스%20관리.md)
-- [CPU 스케줄링](./Operating-System/CPU%20스케줄링.md)
-- [병행제어](./Operating-System/병행제어.md)
-- [데드락](./Operating-System/데드락.md)
+- 반효경 교수님의 운영체제
+
+  - [운영체제 개요](./Operating-System/운영체제%20개요.md)
+  - [컴퓨터시스템의 구조](./Operating-System/컴퓨터시스템의%20구조.md)
+  - [프로세스 관리](./Operating-System/프로세스%20관리.md)
+  - [CPU 스케줄링](./Operating-System/CPU%20스케줄링.md)
+  - [병행제어](./Operating-System/병행제어.md)
+  - [데드락](./Operating-System/데드락.md)
 
 ## 네트워크
 
 - 모두의 네트워크 기초
 
   - [1장 네트워크 첫걸음](./Network/모두의%20네트워크%20기초/1장.md)
+  - [2장 네트워크 통신을 위한 약속](./Network/모두의%20네트워크%20기초/2장%20네트워크%20통신을%20위한%20약속.md)
 
 ## Algorithm
 
