@@ -38,4 +38,6 @@
 
 - Practical Testing: 실용적인 테스트 가이드
 
-  - [섹션6. Spring & JPA 기반 테스트](./Test%20Code/Practical%20Testing%20실용적인%20테스트%20가이드/섹션%206.%20Spring%20&%20JPA%20기반%20테스트.md)
+  - 섹션6. Spring & JPA 기반 테스트
+
+    - [섹션6. Spring & JPA 기반 테스트](./Test%20Code/Practical%20Testing%20실용적인%20테스트%20가이드/섹션%206.%20Spring%20&%20JPA%20기반%20테스트.md)
