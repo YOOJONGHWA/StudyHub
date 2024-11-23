@@ -34,6 +34,7 @@
 - Effective Java 3/E
 
   - [ITEM 1: Static Factory Method(정적 메소드)](<./JAVA/Effective%20Java%203/Static%20Factory%20Method(정적%20메소드).md>)
+  - [ITEM 2: Builder Pattern](./JAVA/Effective%20Java%203/Builder%20Pattern.md)
 
 ---
 
