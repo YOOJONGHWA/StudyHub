@@ -13,6 +13,10 @@
   - [병행제어](./Operating-System/병행제어.md)
   - [데드락](./Operating-System/데드락.md)
 
+- 운영체제 공룡책 강의
+
+  - [Chapter 1-2. Introduction & O/S Structures](./Operating-System/운영체제%20공룡책%20강의/Chapter%201-2.md)
+
 ## Algorithm
 
 - 영리한 프로그래밍을 위한 알고리즘 강좌
