@@ -31,12 +31,21 @@
 
   - [스레딩 기초 - 스레드 간 데이터 공유](./JAVA/Java%20멀티스레딩,%20병행성%20및%20성능%20최적화%20-%20전문가%20되기/스레드%20간%20데이터%20공유.md)
 
-  - [병행성 문제와 솔루션](./JAVA/Java%20멀티스레딩,%20병행성%20및%20성능%20최적화%20-%20전문가%20되기/병행성%20문제와%20솔루션.md)
+  - 병행성 문제와 솔루션
+
+    - [임계 영역과 동기화](./JAVA/Java%20멀티스레딩,%20병행성%20및%20성능%20최적화%20-%20전문가%20되기/병행성%20문제와%20솔루션.md)
+
+    - [원자적 연산과 Volatile 및 메트릭의 실용 예시](/JAVA/Java%20멀티스레딩,%20병행성%20및%20성능%20최적화%20-%20전문가%20되기/원자적%20연산과%20Volatile%20및%20메트릭의%20실용%20예시.md)
+
+    - [경쟁 상태 및 데이터 경쟁](/JAVA/Java%20멀티스레딩,%20병행성%20및%20성능%20최적화%20-%20전문가%20되기/경쟁%20상태%20및%20데이터%20경쟁.md)
 
 - Effective Java 3/E
 
   - [ITEM 1: Static Factory Method(정적 메소드)](<./JAVA/Effective%20Java%203/Static%20Factory%20Method(정적%20메소드).md>)
+
   - [ITEM 2: Builder Pattern](./JAVA/Effective%20Java%203/Builder%20Pattern.md)
+
+  - [ITEM 3: Singleton Pattern](./JAVA/Effective%20Java%203/Singleton%20Pattern.md)
 
 ---
 
