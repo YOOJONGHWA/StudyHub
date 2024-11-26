@@ -53,6 +53,8 @@
 
   - [ITEM 3: Singleton Pattern](./JAVA/Effective%20Java%203/Singleton%20Pattern.md)
 
+  - [ITEM 4: Private Constructor](./JAVA/Effective%20Java%203/Private%20Constructor.md)
+
 ---
 
 ## Spring
