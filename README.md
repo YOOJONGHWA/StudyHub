@@ -57,6 +57,8 @@
 
   - [ITEM 4: Private Constructor](./JAVA/Effective%20Java%203/Private%20Constructor.md)
 
+  - [ITEM 5: Dependency Injection](./JAVA//Effective%20Java%203/Dependency%20Injection.md)
+
 ---
 
 ## Spring
