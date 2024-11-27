@@ -47,6 +47,8 @@
 
   - [락킹 심화](./JAVA/Java%20멀티스레딩,%20병행성%20및%20성능%20최적화%20-%20전문가%20되기/락킹%20심화.md)
 
+  - [스레드 간 통신](./JAVA/Java%20멀티스레딩,%20병행성%20및%20성능%20최적화%20-%20전문가%20되기/스레드%20간%20통신.md)
+
 - Effective Java 3/E
 
   - [ITEM 1: Static Factory Method(정적 메소드)](<./JAVA/Effective%20Java%203/Static%20Factory%20Method(정적%20메소드).md>)
