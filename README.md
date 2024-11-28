@@ -51,15 +51,7 @@
 
 - Effective Java 3/E
 
-  - [ITEM 1: Static Factory Method(정적 메소드)](<./JAVA/Effective%20Java%203/Static%20Factory%20Method(정적%20메소드).md>)
-
-  - [ITEM 2: Builder Pattern](./JAVA/Effective%20Java%203/Builder%20Pattern.md)
-
-  - [ITEM 3: Singleton Pattern](./JAVA/Effective%20Java%203/Singleton%20Pattern.md)
-
-  - [ITEM 4: Private Constructor](./JAVA/Effective%20Java%203/Private%20Constructor.md)
-
-  - [ITEM 5: Dependency Injection](./JAVA//Effective%20Java%203/Dependency%20Injection.md)
+  - [이펙티브 자바](./JAVA/Effective%20Java%203/이펙티브%20자바.md)
 
 ---
 
